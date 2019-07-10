@@ -1,2 +1,7 @@
 notes
 
+Ruby Stuff:
+    Ruby is the language, Rails is the framework.  A bunch of files that do stuff
+    gems - prewritten bits of code from other devs to use in Rails.  Like plugins
+    gemset - a list of gems assigned to a particular app.
+    
