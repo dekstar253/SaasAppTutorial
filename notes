@@ -22,10 +22,19 @@ Adding custome google fonts
 Adding About page
     Used the 3 files.  Created app/layouts/pages/about.html.erb, added controller action and added route. 
     
-Using Bootstrap
+Using Bootstrap Framework
+    Makes development easier
     Can just get the link from bootstrapcdn.com and paste into the /apps/views/layouts/application.html.erb file, but there's a gem for that!
     gem 'bootstrap-sass', '3.3.7'
     rename /app/stylesheets/application.css to .scss
+    @import 'bootstrap-sockets'; 
+    bootstrap sass gem documentation
+
+Nav Menu w/Bootstrap
+    Pasted modified code from bootstrap; get code then adjust. (not rails way tho)
+
+
+Background color/gradient
     
 
     
