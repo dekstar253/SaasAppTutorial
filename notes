@@ -4,4 +4,29 @@ Ruby Stuff:
     Ruby is the language, Rails is the framework.  A bunch of files that do stuff
     gems - prewritten bits of code from other devs to use in Rails.  Like plugins
     gemset - a list of gems assigned to a particular app.
+    bundle install command or bundle update
+    gemfile - file with a list of gems and versions
+    gemfile.lock - all nested gems and dependencies
+
+Adding Homepage
+    Quick and dirty - Go to /public/ and add index.html.  BUT no rails functions just temporary page.  
+    Rails Way: 
+        3 files work together - controller file, views file, routes file 
+        add to app/controllers/pages_controller.rb - ruby file.  Created PagesController class from ApplicationController class. Function called home.  (Method) 
+        add to views.  All files in the views folders make up the look of site. Filename home must match method name.  
+        need to add page to config/routes.rb Says the root needs to be home method in pages controller. 
+        
+Adding custome google fonts
+    Went to google fonts.  added the link to /views/layouts/application.html.erb and defined h1, h2, h3 in app/assets/stylesheets/application.css
+
+Adding About page
+    Used the 3 files.  Created app/layouts/pages/about.html.erb, added controller action and added route. 
     
+Using Bootstrap
+    Can just get the link from bootstrapcdn.com and paste into the /apps/views/layouts/application.html.erb file, but there's a gem for that!
+    gem 'bootstrap-sass', '3.3.7'
+    rename /app/stylesheets/application.css to .scss
+    
+
+    
+        
