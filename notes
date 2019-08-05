@@ -35,7 +35,31 @@ Nav Menu w/Bootstrap
 
 
 Background color/gradient
+    edited appliation.css.scss file and added class rules
+    
+Improving home layout
+    Added a few classes to "label" elements for CSS. Bootstrap classes apply properties from bootstrap
+    Used inspector to tweak margins in box model. 
     
 
-    
+Navbar color
+    specificity - assigns more point to things with higher level of specificity, 
+    operators ">" etc,  w3schools 
         
+Refactoring.  DRY. Don't Repeat Yourself. 
+    comma "," allows to group 
+    
+    sass way: nest selectors with &.  Read documentation for Sass. 
+    
+Logo for site. Using Font Awesome gem - Went to github for font awesome documentation and installation instructions
+    <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevMatch</a> Added the logo by nesting with the <i> tag. 
+    Check licenses
+    
+Links the Rails way:
+    Use link_to.  <%= %> - injects ruby code with the %% because it's modular.  
+    auto generate path name 
+    rails routes displays routes
+    then use the prefix before _path.  This way is more modular and don't have to change every time a link changes.  Just change the action
+    routes file is master list of all pages users are allowed to go to 
+    
+About Page
