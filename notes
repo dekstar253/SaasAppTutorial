@@ -15,6 +15,7 @@ Adding Homepage
         add to app/controllers/pages_controller.rb - ruby file.  Created PagesController class from ApplicationController class. Function called home.  (Method) 
         add to views.  All files in the views folders make up the look of site. Filename home must match method name.  
         need to add page to config/routes.rb Says the root needs to be home method in pages controller. 
+        controller#action
         
 Adding custome google fonts
     Went to google fonts.  added the link to /views/layouts/application.html.erb and defined h1, h2, h3 in app/assets/stylesheets/application.css
@@ -32,10 +33,13 @@ Using Bootstrap Framework
 
 Nav Menu w/Bootstrap
     Pasted modified code from bootstrap; get code then adjust. (not rails way tho)
-
+    app/views/layouts/application.html.erb - is a file that injects code to all pages. 
+    shaved the code down from bootstrap 
+    with bootstrap - you look for the things you want; get the code and adjust
 
 Background color/gradient
-    edited appliation.css.scss file and added class rules
+    edited application.css.scss (master css) file and added class rules
+    box model - element->padding->border->margin 
     
 Improving home layout
     Added a few classes to "label" elements for CSS. Bootstrap classes apply properties from bootstrap
@@ -44,12 +48,12 @@ Improving home layout
 
 Navbar color
     specificity - assigns more point to things with higher level of specificity, 
-    operators ">" etc,  w3schools 
+    operators ">" etc,  read up on w3schools 
         
-Refactoring.  DRY. Don't Repeat Yourself. 
+Refactoring.  DRY. Don't Repeat Yourself.
     comma "," allows to group 
-    
     sass way: nest selectors with &.  Read documentation for Sass. 
+    cmd + / makes comment out of line 
     
 Logo for site. Using Font Awesome gem - Went to github for font awesome documentation and installation instructions
     <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevMatch</a> Added the logo by nesting with the <i> tag. 
@@ -58,8 +62,10 @@ Logo for site. Using Font Awesome gem - Went to github for font awesome document
 Links the Rails way:
     Use link_to.  <%= %> - injects ruby code with the %% because it's modular.  
     auto generate path name 
-    rails routes displays routes
-    then use the prefix before _path.  This way is more modular and don't have to change every time a link changes.  Just change the action
+    command "rails routes" displays routes
+    config/routes
+    then use the prefix before _path. ie. about_path.  This way is more modular and don't have to change every time a link changes.  Just change the action.  Place holder
     routes file is master list of all pages users are allowed to go to 
     
 About Page
+    Used container-fluid, but that's for mobile.   
