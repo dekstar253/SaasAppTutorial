@@ -69,3 +69,20 @@ Links the Rails way:
     
 About Page
     Used container-fluid, but that's for mobile.   
+    
+Bootstrap javascript
+    Used the inspector to dig into the html where the mobile hamburger menu.  Added the navbar classes to css with sass and changed the color, width, border. Need to add a line to the application.js file 
+    so that bootstrap can use javascript. 
+    
+The Rails Asset Pipeline
+    Enables speed of site because it consolidates the requests for javascript and css to one file instead of many.  The application.js and application.scss files are manifests for the one file
+    https://guides.rubyonrails.org/asset_pipeline.html
+    
+Forms Are Everywhere
+    Everything is a form - Forms are one of the major and common ways we interact with the internet. 
+    
+Buiding a contact form
+    Object oriented programing. OOP.  Think of all the things as objects. I.e. ea user, form submit, 
+    created new branch. git branch. 
+    
+    
