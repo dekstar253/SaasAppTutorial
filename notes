@@ -83,6 +83,8 @@ Forms Are Everywhere
     
 Buiding a contact form
     Object oriented programing. OOP.  Think of all the things as objects. I.e. ea user, form submit, 
-    created new branch. git branch. 
-    
-    
+    created new branch. git branch. git checkout -b (new branch) 
+    create new controller contacts_controller.rb in /app/controllers becuase it's its own object
+    create new folder in the view folder
+    create new file in the app/views/contact folder called new that matches the def. 
+    add to routes file
