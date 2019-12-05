@@ -99,3 +99,10 @@ Bootstrap the form
     so we wrap the form elements into a class called form_group using div 
     used the bootstrap html class and defined it in the ruby code. 
     use the bootstrap grid system by using the div in the container
+    
+Navlink for Contact Form Page
+    use the layout file  - nav menu shows on all pages 
+    use rails routes command in terminal - spits out all available pages
+    from routes.rb file - /contacts/new with prefix new_contact 
+    so we put in the layouts/appliation file <li><%= link_to "Link Name", (prefix)_path %></li>
+    
