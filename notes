@@ -88,3 +88,14 @@ Buiding a contact form
     create new folder in the view folder
     create new file in the app/views/contact folder called new that matches the def. 
     add to routes file
+    
+Contact Form Fields
+    using html you can create form with the input tag but not rails way.  Rails uses form helper code. 
+    using <% (whatever that is) generates html with stuff built into it w/best practices
+    read more rails form helper
+    
+Bootstrap the form 
+    go to the bootstrap site and lookup the examples. 
+    so we wrap the form elements into a class called form_group using div 
+    used the bootstrap html class and defined it in the ruby code. 
+    use the bootstrap grid system by using the div in the container
