@@ -105,4 +105,11 @@ Navlink for Contact Form Page
     use rails routes command in terminal - spits out all available pages
     from routes.rb file - /contacts/new with prefix new_contact 
     so we put in the layouts/appliation file <li><%= link_to "Link Name", (prefix)_path %></li>
+    why resources :contacts expands 8 different routes. RESTful routes. Most common stuff we do with resources. Short cut for REST 
     
+Contacts Table
+    data from a form goes to database.  Called persistance.  Columns and rows like a spreadsheet.  Ea row called a record, columns have data.  
+    a company's value is their database.  i.e. Facebook would be devalued if it's database was deleted. 
+    generate a migration file with rails generate migration CreateContacts.  migration file is like a blueprint for a database
+    in the migration file there's boilerplate code.  we add the columns we want with t.string :columnname.  |t| is defined so t. 
+    to create the tablel or "run migration" rails db:migrate
