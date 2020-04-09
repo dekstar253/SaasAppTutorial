@@ -87,11 +87,12 @@ Buiding a contact form
     create new controller contacts_controller.rb in /app/controllers becuase it's its own object or method/action
     create new folder in the view folder
     create new file in the app/views/contact folder called new that matches the def. 
+    controller,view and route file
     add to routes file
     
 Contact Form Fields
     using html you can create form with the input tag but not rails way.  Rails uses form helper code. 
-    using <% (whatever that is) generates html with stuff built into it w/best practices
+    using <%= (whatever that is) generates html with stuff built into it w/best practices
     read more rails form helper
     
 Bootstrap the form 
@@ -121,3 +122,16 @@ Contacts Table
 Contacts Model File
     Whenever working with databases we need Model files.  MVC (MODEL VIEW CONTROLLER) 
     Created contact.rb in app/models/
+    Think of objects.  Objects are basically a list of stuff
+    Classes are blueprints for objects
+    
+Saving contacts to database. 
+    Each sign-up is an object with attributes - name email comments w/values
+    wiring up app/controller/contacts_controller - instructions to save to db
+    Rails needs to treat form as object - added @contact = Contact.new. @contact is an instance variable that's set to a blank contact object
+    This varable is associated with @contact in the views file and says this form collects data for this object. 
+    So to save the data - we need to create a new action in controller file - and created if statement with notification
+    whitelist 
+    
+    
+    
